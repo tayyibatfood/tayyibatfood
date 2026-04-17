@@ -1,0 +1,58 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--no-audit --no-fund"
+
+# ────────────────────────────────────────────────────────────────
+# Security headers · v1.0 deployment brief §5.1 + best practices
+# ────────────────────────────────────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ────────────────────────────────────────────────────────────────
+# Redirects — legacy WordPress-era URLs → v2 IA
+# ────────────────────────────────────────────────────────────────
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/ar/*"
+  to = "/:splat"
+  status = 301
+
+# SPA fallback — if a URL isn't found, try with trailing slash
+[[redirects]]
+  from = "/القاموس"
+  to = "/القاموس/"
+  status = 301
+
+[[redirects]]
+  from = "/الموسوعة"
+  to = "/الموسوعة/"
+  status = 301
+
+[[redirects]]
+  from = "/البدائل"
+  to = "/البدائل/"
+  status = 301
