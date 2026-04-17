@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "version": 1,
+    "description": "Curated catalog of Dr. Diaa Al-Awady video content. Add new entries to the array; the site renders them automatically.",
+    "topics": {
+      "philosophy": { "ar": "الفلسفة والأساس", "en": "Philosophy & Foundation" },
+      "protocol":   { "ar": "البروتوكول والتطبيق", "en": "Protocol & Application" },
+      "food":       { "ar": "الأطعمة والمسموحات", "en": "Foods & Allowances" },
+      "medicine":   { "ar": "الطب والأدوية", "en": "Medicine & Pharmaceuticals" },
+      "controversy":{ "ar": "الجدل والرد", "en": "Controversy & Response" },
+      "cases":      { "ar": "حالات وتجارب", "en": "Cases & Experiences" }
+    }
+  },
+  "videos": [
+    {
+      "id": "6T7S4CEKswY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=6T7S4CEKswY",
+      "title_ar": "بودكاست Blue Zones Wellness — الحلقة الكاملة مع د. ضياء العوضي",
+      "title_en": "Blue Zones Wellness Podcast — Full Episode with Dr. Diaa Al-Awady",
+      "description_ar": "حلقة شاملة يناقش فيها د. ضياء نظريته الطبية والغذائية بالتفصيل: خلفيته الطبية، نقطة التحول، فلسفة التشافي الذاتي، آراؤه حول الأنسولين والسكريات الطبيعية، والصدام مع المجتمع الطبي.",
+      "description_en": "Comprehensive episode in which Dr. Diaa discusses his medical and nutritional theory in detail: his medical background, turning point, self-healing philosophy, views on insulin and natural sugars, and his confrontation with the medical community.",
+      "duration_seconds": 6420,
+      "published_at": "2025-11-12",
+      "topic": "philosophy",
+      "featured": true,
+      "chapters": [
+        { "time": "01:26",   "title_ar": "خلفيته الطبية كطبيب رعاية مركزة", "title_en": "His background as an ICU physician" },
+        { "time": "05:11",   "title_ar": "التشكيك في البروتوكولات الطبية التقليدية", "title_en": "Questioning conventional medical protocols" },
+        { "time": "15:23",   "title_ar": "الطعام كمتغير وحيد نتحكم فيه", "title_en": "Food as the only variable we fully control" },
+        { "time": "26:12",   "title_ar": "قدرة الجسم الفطرية على التشافي الذاتي", "title_en": "The body's innate capacity for self-healing" },
+        { "time": "41:32",   "title_ar": "قصة الفتاة في العناية المركزة", "title_en": "The ICU girl case story" },
+        { "time": "01:06:45","title_ar": "لماذا اسم «الطيبات»", "title_en": "Why the name 'Tayyibat'" },
+        { "time": "01:16:39","title_ar": "الأنسولين هرمون تخزين وليس هرمون سكر", "title_en": "Insulin as storage hormone, not sugar hormone" },
+        { "time": "01:27:03","title_ar": "البصل والثوم غير مناسبين للإنسان", "title_en": "Onion and garlic unsuitable for humans" },
+        { "time": "01:37:07","title_ar": "حالة زراعة الكلى وإيقاف المثبطات", "title_en": "Kidney transplant case and stopping immunosuppressants" }
+      ]
+    }
+  ]
+}

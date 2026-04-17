@@ -1,12 +1,12 @@
 # TAYYIBATFOOD.COM — DEMO NOTES
 **For: Mohamed El Zayat · Tonight's pitch**
-**Deployed version: v2.0 — "The Neutral Kitchen" rebuild**
+**Deployed version: v2.0 — " " rebuild**
 
 ---
 
 ## THE 30-SECOND FRAME
 
-> *"This is a two-million-visitor editorial platform we repositioned in 10 days. We took a struck-off doctor's controversial diet system, stripped it of its medical exposure, and rebuilt it as a neutral culinary institution — **المَطبخ المحايد**, The Neutral Kitchen. Same audience. Zero legal liability. Infinite commerce optionality."*
+> *"This is a two-million-visitor editorial platform we repositioned in 10 days. We took a struck-off doctor's controversial diet system, stripped it of its medical exposure, and rebuilt it as a neutral culinary institution — ** **, . Same audience. Zero legal liability. Infinite commerce optionality."*
 
 That's the pitch. The demo is the proof.
 
@@ -153,7 +153,7 @@ Land on **tayyibatfood.com**. Don't scroll immediately — let them read.
 ## LAUNCH-NIGHT CHECKLIST
 
 Before the meeting:
-- [ ] Push this build to GitHub: `git add . && git commit -m "v2.0 — The Neutral Kitchen" && git push`
+- [ ] Push this build to GitHub: `git add . && git commit -m "v2.0 " && git push`
 - [ ] Verify Netlify deploy succeeds (dc01fbed dashboard → Deploys tab → green checkmark)
 - [ ] Open **tayyibatfood.com** in a clean incognito window — no extensions, no cache
 - [ ] Test the **البيض** chip loads a verdict (the kill-shot of the demo)
@@ -177,7 +177,7 @@ On-screen:
 > *"The only culturally-authoritative Arabic food reference. Two million users, deeply engaged, actively shopping. Partner with us and you're embedded in their daily food decisions."*
 
 **For media / press:**
-> *"The Neutral Kitchen — the editorial reference for the biggest dietary movement you've never heard of."*
+> *" — the editorial reference for the biggest dietary movement you've never heard of."*
 
 ---
 

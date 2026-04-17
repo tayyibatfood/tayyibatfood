@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "version": 1,
+    "description": "Canonical changelog for tayyibatfood.com. Append new entries to the top. Each entry auto-renders on /ar/التحديثات/ and /en/updates/.",
+    "categories": {
+      "design": { "ar": "تصميم", "en": "Design", "color": "#8B2332" },
+      "content": { "ar": "محتوى", "en": "Content", "color": "#5F6B3C" },
+      "feature": { "ar": "ميزة جديدة", "en": "New feature", "color": "#C69749" },
+      "fix": { "ar": "إصلاح", "en": "Fix", "color": "#6B5F52" },
+      "seo": { "ar": "محركات بحث", "en": "SEO", "color": "#3D362E" }
+    }
+  },
+  "entries": [
+    {
+      "date": "2026-04-17",
+      "category": "feature",
+      "title_ar": "قسم فيديوهات د. ضياء العوضي",
+      "title_en": "Dr. Diaa Al-Awady videos section",
+      "summary_ar": "إطلاق قسم مخصص لفيديوهات د. ضياء العوضي، منظم حسب الموضوع، مع مشغل مدمج وفهرسة كاملة.",
+      "summary_en": "Launched a dedicated section for Dr. Diaa Al-Awady's videos, organized by topic with embedded player and full indexing."
+    },
+    {
+      "date": "2026-04-17",
+      "category": "feature",
+      "title_ar": "سجل تحديثات الموقع",
+      "title_en": "Site updates changelog",
+      "summary_ar": "أصبح بإمكانك متابعة كل ما يُضاف ويُحدَّث في الموقع من صفحة واحدة، مع تصنيف حسب النوع (تصميم، محتوى، ميزات، إصلاحات).",
+      "summary_en": "You can now follow every site update from a single page, categorized by type (design, content, features, fixes)."
+    },
+    {
+      "date": "2026-04-17",
+      "category": "content",
+      "title_ar": "جدول الوجبات الأسبوعي الكامل",
+      "title_en": "Complete weekly meal plan",
+      "summary_ar": "جدول وجبات أسبوعي كامل — ٧ أيام × وجبتين — مبني على بروتوكول د. ضياء، بأطعمة متوافرة في السوق المصري.",
+      "summary_en": "Full seven-day meal plan (two meals per day) built on Dr. Diaa's protocol using ingredients available in the Egyptian market."
+    },
+    {
+      "date": "2026-04-17",
+      "category": "design",
+      "title_ar": "تعميق ألوان الموقع",
+      "title_en": "Richer visual depth",
+      "summary_ar": "تحديث شامل على ألوان وظلال وتدرجات الموقع لإضفاء عمق وحيوية بصرية.",
+      "summary_en": "Comprehensive refresh of site colors, shadows, and gradients for visual depth and vibrancy."
+    },
+    {
+      "date": "2026-04-17",
+      "category": "design",
+      "title_ar": "شعار جديد + مجموعة أيقونات متكاملة",
+      "title_en": "New logo + complete icon set",
+      "summary_ar": "شعار الطيبات الجديد بسنبلتي القمح على كل الصفحات، مع مجموعة أيقونات متكاملة (favicon، بطاقات المشاركة، أيقونة الجوال).",
+      "summary_en": "New الطيبات wheat-stalks logo across all pages, with a complete icon set (favicon, social cards, mobile home-screen icon)."
+    }
+  ]
+}
