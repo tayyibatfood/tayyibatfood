@@ -202,29 +202,22 @@ strong { color: var(--ink); font-weight: 600; }
   text-decoration: none;
 }
 
-.brand-mark {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-full);
-  background: var(--ottoman);
-  color: var(--parchment);
-  display: grid;
-  place-items: center;
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 600;
+.brand-logo {
+  height: 44px;
+  width: auto;
+  display: block;
   flex-shrink: 0;
-  letter-spacing: -0.02em;
 }
 
-.brand-text { display: flex; flex-direction: column; line-height: 1; }
+@media (max-width: 640px) {
+  .brand-logo { height: 38px; }
+}
 
-.brand-name {
-  font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 600;
-  color: var(--ink);
-  letter-spacing: 0;
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  justify-content: center;
 }
 
 .brand-tag {
